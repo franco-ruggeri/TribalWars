@@ -11,7 +11,7 @@ if len(sys.argv) < 2:
 arrival = dt.datetime.strptime(sys.argv[1], '%H:%M:%S').time()
 
 # cancel time
-for m in range(4, -1, -1):
+for m in range(9, -1, -1):
 	for s in [30, 0]:
 		if m == 0 and s == 0:
 			continue
